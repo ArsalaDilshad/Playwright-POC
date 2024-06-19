@@ -1,0 +1,46 @@
+<testsuites id="" name="" tests="11" failures="0" skipped="0" errors="0" time="43.095181000000004">
+<testsuite name="create-user.spec.ts" timestamp="2024-05-27T14:24:31.915Z" hostname="chromium" tests="2" failures="0" skipped="0" time="7.191" errors="0">
+<testcase name="user_creation_positive" classname="create-user.spec.ts" time="3.924">
+</testcase>
+<testcase name="user_creation_negative" classname="create-user.spec.ts" time="3.267">
+</testcase>
+</testsuite>
+<testsuite name="csv-order.spec.ts" timestamp="2024-05-27T14:24:31.915Z" hostname="chromium" tests="2" failures="0" skipped="0" time="8.575" errors="0">
+<testcase name="order_csv_negative" classname="csv-order.spec.ts" time="4.725">
+<system-out>
+<![CDATA[New file created: 8E3SVJundefinedinvalid-csv-order-fixtures.csv
+File 8E3SVJundefinedinvalid-csv-order-fixtures.csv deleted successfully
+]]>
+</system-out>
+</testcase>
+<testcase name="order_csv_positive" classname="csv-order.spec.ts" time="3.85">
+<system-out>
+<![CDATA[New file created: SOGNBZundefinedvalid-csv-order-fixtures.csv
+File SOGNBZundefinedvalid-csv-order-fixtures.csv deleted successfully
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="delete-user.spec.ts" timestamp="2024-05-27T14:24:31.915Z" hostname="chromium" tests="2" failures="0" skipped="0" time="5.978" errors="0">
+<testcase name="user_deletion_positive" classname="delete-user.spec.ts" time="2.987">
+</testcase>
+<testcase name="user_deletion_negative" classname="delete-user.spec.ts" time="2.991">
+</testcase>
+</testsuite>
+<testsuite name="login.spec.ts" timestamp="2024-05-27T14:24:31.915Z" hostname="chromium" tests="2" failures="0" skipped="0" time="6.29" errors="0">
+<testcase name="valid_login" classname="login.spec.ts" time="3.502">
+</testcase>
+<testcase name="invalid_login" classname="login.spec.ts" time="2.788">
+</testcase>
+</testsuite>
+<testsuite name="manual-order.spec.ts" timestamp="2024-05-27T14:24:31.915Z" hostname="chromium" tests="2" failures="0" skipped="0" time="11.114" errors="0">
+<testcase name="language_selection" classname="manual-order.spec.ts" time="4.796">
+</testcase>
+<testcase name="order_submission" classname="manual-order.spec.ts" time="6.318">
+</testcase>
+</testsuite>
+<testsuite name="store-navigation.spec.ts" timestamp="2024-05-27T14:24:31.915Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.697" errors="0">
+<testcase name="navigation_emma_store" classname="store-navigation.spec.ts" time="2.697">
+</testcase>
+</testsuite>
+</testsuites>
